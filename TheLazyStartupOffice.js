@@ -6,7 +6,7 @@ function binRota(arr){
         result.push(...arr[currentTick])
     }
     else{
-        let oppoRes = arr[i].reverse();
+        let oppoRes = arr[currentTick].reverse();
         result.push(...arr[oppoRes])
     }
     currentTick++;
